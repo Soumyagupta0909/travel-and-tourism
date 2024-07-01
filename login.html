@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+    body{
+        background-image: url(travelbgrd.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h2{
+        text-align: center;
+    }
+    .container{
+        text-align: center;
+    }
+</style>
+<body>
+    <nav class="navbar">
+
+    
+        <h1>EXPLORE INDIA</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>  
+            <li><a href="login.html">Login</a></li>
+
+            
+        </ul>
+    </nav>
+    <h2>login form</h2>
+    <form action="">
+        <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required><br>
+                <br>
+                
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+                <button type="button" onclick="alert('loginsuccessful')">submit</button>
+               
+                <button type="button" class="cancelbtn">Cancel</button><br><br>
+                <span class="psw"> <a href="#">forgot Password</a></span>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+   
+    mark{
+        background-color: rgb(230, 195, 202);
+    }
+    .images{
+        padding: 20px;
+      
+    }
+    .destination{
+        box-sizing: border-box;
+
+    }
+    h2{
+        color: rgb(191, 43, 20);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+    .column {
+  float: left;
+  width: 33.3%
+  
+    }
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline;
+}
+</style>
+<body>
+    <nav class="navbar">
+
+    
+        <h1>EXPLORE INDIA</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>  
+            <li><a href="login.html">Login</a></li>
+           
+            
+        </ul>
+    </nav>
+    <h1>places to visit in <mark>INDIA</mark></h1>
+    <section class="destinations">
+        <h2>Popular destinations</h2>
+        <div class="destination">
+            <div class="row">
+                <div class="column">
+                    <h2>kerala</h2>
+        <img src="d2kerala.jpg"  width="300" height="300">
+                </div>
+            </div>
+        <div class="column">
+            <h2>Tajmahal</h2>
+            <img src="dtajmahal.webp" width="300" height="300">
+        </div>
+
+       <div class="column">
+        <h2>Manali</h2>
+        <img src="dmanali.jpg" width="300" height="300">
+       </div>
+        <div class="column">
+            <h2>Goa</h2>
+            <img src="dgoa.jpg" width="300" height="300">
+        </div>
+        <div class="column">
+            <h2>Tirupati</h2>
+            <img src="dtirupati.webp" width="300" height="300">
+        </div>
+        <div class="column">
+            <h2>Banglore</h2>
+         <img src="dbanglore.webp" width="300" height="300">
+        </div>
+         <div class="column">
+            <h2>Coimabatore</h2>
+         <img src="dcoimabatore.jpeg" width="300" height="300">
+         </div>
+         <div class="column">
+            <h2>Kedarnath</h2>
+         <img src="dkedarnath.jpg" width="300" height="300">
+         
+         </div>
+         
+        </div>
+       </section>
+    
+</body>
+</html>

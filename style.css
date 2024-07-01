@@ -1,0 +1,24 @@
+
+*{
+    text-decoration: none;
+}
+h1::first-letter{
+    font-size: 150%;
+    color: red;
+}
+.navbar{
+    background-color:antiquewhite; padding-left: 15px; padding-right: 15px;
+    display: flex; align-items: center; justify-content: space-between;
+}
+li{
+    list-style: none; display: inline-block;
+    
+}
+li a{
+    color: black; font-weight: 500;font-size: 30px;margin-right: 40px;
+}
+button{
+    background-color: black;
+    color:white; border-radius: 70px;font-size: 30px; width: 100px; box-sizing: 50px;
+    
+}
